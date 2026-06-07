@@ -1,4 +1,4 @@
-# 🌸 Iris Flower Classification (LLS)
+# Iris Flower Classification (LLS)
 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -9,14 +9,14 @@ This project demonstrates binary classification using vectorized NumPy operation
 
 ![Calculated Route Simulation](iris_seperation.png)
 
-## 🚀 Core Features
+## Core Features
 * **Modular Architecture:** Logic separated into a reusable `classifier.py` module and a main execution script.
 * **Vectorized Training:** Efficient calculation of weights using the normal equation and NumPy’s `linalg.solve`.
 * **Performance Analysis:** Automated calculation of confusion matrices and accuracy metrics.
 * **Visualization:** Decision boundary plotting to observe class separability.
 
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 * **Python 3** (Object-Oriented Architecture)
 * **NumPy** (Vectorized Array Operations)
 * **Matplotlib** (Graph Rendering & Geometry Plotting)
@@ -27,7 +27,7 @@ This project demonstrates binary classification using vectorized NumPy operation
 └── iris_seperation.png  # Image of the calculated Hyperplane separating Iris Setosa and the others
 ```
 
-## 📦 Installation & Usage
+## Installation & Usage
 1. Clone the repository:
 ```bash 
 git clone [https://github.com/m-podolski-projects/iris-classification-lls.git](https://github.com/m-podolski-projects/iris-classification-lls.git)
@@ -44,8 +44,5 @@ pip install numpy matplotlib pandas
 python Main.py
 ```
 
-## 📊 Observations
+## Observations
 The project highlights the limitations of linear classifiers. While Iris-setosa is perfectly separable from the other classes, Iris-versicolor exhibits significant overlap in the feature space, demonstrating the challenge of linear separability in real-world data.
-
-## ⚖️ License
-This project is open-source and available under the MIT License.
